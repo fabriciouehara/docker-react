@@ -10,5 +10,5 @@ script:
   - docker version
   - whoami
   - hostname
-  - docker run fabriciouehara/docker-react npm run test -- --coverage
+  - docker run -e CI=true fabriciouehara/docker-react npm run test -- --coverage
 
