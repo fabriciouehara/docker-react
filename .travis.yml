@@ -10,5 +10,6 @@ script:
   - docker version
   - whoami
   - hostname
+  - ifconfig
   - docker run -e CI=true fabriciouehara/docker-react npm run test -- --coverage
 
